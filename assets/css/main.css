@@ -765,17 +765,28 @@ section,
   padding-bottom: 0;
 }
 
+.resume .resume-item {
+  padding: 0 20px 20px 0;
+  margin-top: -2px;
+  border-right: 2px solid var(--accent-color);
+  border-left: none;
+  position: relative;
+  text-align: right;
+}
+
 .resume .resume-item::before {
   content: "";
   position: absolute;
   width: 16px;
   height: 16px;
   border-radius: 50px;
-  left: -9px;
+  right: -9px;
+  left: auto;
   top: 0;
   background: var(--background-color);
   border: 2px solid var(--accent-color);
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio Section
